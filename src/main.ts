@@ -102,3 +102,10 @@ function tambahTugas(judul: string, matkul: string) {
 
 // Render awal saat aplikasi dibuka
 render();
+// Fungsi helper untuk membungkus respons
+function bungkusResponse(data: any, message: string) {
+  return {
+    message: message,
+    data: data
+  };
+}
