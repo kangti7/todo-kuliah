@@ -1,6 +1,5 @@
 import './style.css';
-import { ItemTugas, StatusTugas, bungkusResponse } from './types';
-
+import type { ItemTugas, StatusTugas } from './types';
 // State aplikasi menggunakan Array of ItemTugas
 let daftarTugas: ItemTugas[] = [
   { id: 1, judul: 'Laporan Usability Testing', matkul: 'IMK', deadline: '2026-11-20', status: 'Belum Selesai' },
