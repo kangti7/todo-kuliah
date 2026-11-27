@@ -67,6 +67,18 @@ todo-kuliah/
 | `VITE_APP_NAME` | `Todo Kuliah` | Nama aplikasi pada header dan judul halaman |
 | `VITE_APP_VERSION` | `1.0.0` | Versi yang ditampilkan pada badge header |
 
+## Menyetel Ulang Data
+
+Data tugas dan jadwal tersimpan di LocalStorage browser. Untuk mengosongkan
+seluruh data, buka DevTools → Console lalu jalankan:
+
+```js
+localStorage.removeItem('todo-kuliah-tugas');
+localStorage.removeItem('todo-kuliah-jadwal');
+```
+
+Muat ulang halaman setelahnya agar jadwal default dibuat kembali.
+
 ## Lisensi
 
 ISC
