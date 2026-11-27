@@ -3,6 +3,8 @@
 Aplikasi pengelola tugas dan jadwal kuliah berbasis web. Semua data disimpan di
 `localStorage` browser, jadi aplikasi dapat berjalan tanpa backend.
 
+**Demo:** https://todo-kuliah-plum.vercel.app
+
 ## Fitur
 
 - **Manajemen tugas** — tambah, edit, hapus, dan ubah status tugas (Belum Selesai / Selesai).
