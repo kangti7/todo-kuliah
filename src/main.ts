@@ -274,7 +274,7 @@ function render(): void {
       <main>
         <section class="intro" aria-labelledby="page-title">
           <p class="eyebrow">RUANG KERJA AKADEMIK</p>
-          <h1 id="page-title">Jadwal kuliah, lebih rapi.</h1>
+          <h1 id="page-title">Kelola jadwal dan tugas kuliah, lebih teratur.</h1>
           <p class="intro-copy">Catat tenggat, pantau progres, dan selesaikan satu per satu.</p>
         </section>
 
